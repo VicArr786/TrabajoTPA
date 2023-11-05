@@ -1,4 +1,7 @@
-package GameEngine;
+package src.GameEngine;
+
+import src.GameEngine.SettingsPage;
+import src.GameEngine.createScene;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -22,8 +25,19 @@ public class Menu {
                 screen.dispose();
                 new NPCMessage();
                 new RectanguloLlenadoInfinito();
+                new createScene();
+
+
             }
 
+        });
+        b2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                screen.dispose();
+                new SettingsPage();
+
+            }
         });
         b3.addActionListener(new ActionListener() {
             @Override
