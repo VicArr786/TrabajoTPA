@@ -12,6 +12,7 @@ public class Menu {
         JFrame pantalla = new JFrame("Prueba");;
         generarInicio(pantalla);
         System.out.println("Hello, world!");
+        System.out.println("ALLL MY FELLAS");
 
     }
     public static void generarInicio(JFrame screen) {
