@@ -1,4 +1,4 @@
-package Jugador;
+package src.Jugador;
 public class playerCar {
     public Car playerCarCreation(int level) {
         Car cochePlayer = new Car("Porsche","Rojo",

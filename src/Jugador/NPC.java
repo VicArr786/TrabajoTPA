@@ -1,19 +1,23 @@
-package Jugador;
+package src.Jugador;
 
-import Jugador.Car;
-import Jugador.Player;
+import java.util.logging.Level;
 
-import java.util.Random;
 
 public class NPC extends Player {
-    public Car nPCCarCreation(int level) {
+    public int Level;
+
+    public Car NPCCarCreation(int level) {
         Car cochePlayer = new Car("lol", "rojo",
-                130 + (level*15),
+                130 + (level * 15),
                 4 + (level * 5));
+        cochePlayer.setAcceleration(accelerate(Level));
         return cochePlayer;
     }
-    public void accelerate() {
+
+    public double accelerate(int level) {
         random random = new random();
-        acceleration= random.Randomizer();
+        acceleration = random.Randomizer(level);
+        return acceleration;
     }
+
 }
