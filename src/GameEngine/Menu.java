@@ -11,6 +11,8 @@ public class Menu {
     public static void main(String[] args) {
         JFrame pantalla = new JFrame("Prueba");;
         generarInicio(pantalla);
+        System.out.println("Hello, world!");
+
     }
     public static void generarInicio(JFrame screen) {
         JButton b1 = new JButton("Play");

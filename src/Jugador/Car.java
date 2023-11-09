@@ -1,4 +1,4 @@
-package Jugador;
+package src.Jugador;
 
 public class Car {
     private String model;

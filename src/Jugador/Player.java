@@ -1,6 +1,6 @@
-package Jugador;
+package src.Jugador;
 
-import Jugador.Car;
+import src.Jugador.Car;
 
 public class Player {
     private String name;
