@@ -14,6 +14,7 @@ public class Menu {
         System.out.println("Hello, world!");
         System.out.println("ALLL MY FELLAS");
         System.out.println("ONE TWO THREE FOUR HOW MANY-");
+        System.out.println("test4");
 
     }
     public static void generarInicio(JFrame screen) {
