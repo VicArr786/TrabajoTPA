@@ -1,5 +1,3 @@
-
-
 package src.GameEngine;
 import java.awt.Color;
 import java.awt.Dimension;
